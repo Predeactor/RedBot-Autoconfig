@@ -13,6 +13,10 @@ info() {
   printf "\n\033[32;1m $1\033[0m\n\n"
 }
 
+if [ ! -f "$HOME/.bashrc" ]; then
+  touch $HOME/.bashrc
+fi
+
 log_info "Updating packages..."
   sudo apt update -y
 
