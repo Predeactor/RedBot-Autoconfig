@@ -6,10 +6,6 @@ Those command will automatically install Red on your machine
 **DO NOT RUN THIS AS ROOT OR USING SUDO**
 
 
-## Ubuntu 16.04
-```
-bash <(wget -qO- https://raw.githubusercontent.com/Predeactor/RedBot-Autoconfig/master/ubuntu16.04)
-```
 ## Ubuntu 18.04
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/Predeactor/RedBot-Autoconfig/master/ubuntu18.04)
