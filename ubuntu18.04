@@ -36,4 +36,4 @@ log_info "Installing pip, setuptools and wheel..."
 log_info "Installing Red - Discord Bot..."
   python -m pip install -U Red-DiscordBot
 
-info "Installation terminated! You can now create your instance by using 'redbot-setup' and start it by using 'redbot '<instance_name>' (Without <>)"
+info "Installation completed!\nGet into your venv: 'source ~/redenv/bin/activate'\nCreate your Red instance: 'redbot-setup'\nStart an instance: 'redbot <instance_name>' (Without <>)"
